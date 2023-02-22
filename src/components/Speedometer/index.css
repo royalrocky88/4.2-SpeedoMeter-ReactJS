@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  position: fixed;
+  width: auto;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.image {
+  height: 200px;
+}
+
+.test-head {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 45px;
+}
+
+.describe {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.speed-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.break-btn {
+  background-color: #07080c;
+  color: #94a3b8;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+  border-color: #94a3b8;
+  outline: none;
+  cursor: pointer;
+}
+
+@media Screen and (min-width: 576px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
